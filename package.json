@@ -5,16 +5,21 @@
   "main": "index.js",
   "scripts": {
     "start": "node server",
-    "dev": "nodemon server"
+    "dev": "nodemon server",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/jest": "^29.1.2",
+    "axios": "^1.1.2",
     "body-parser": "^1.20.0",
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "supertest": "^6.3.0"
   },
   "devDependencies": {
+    "jest": "^29.2.0",
     "nodemon": "^2.0.19"
   }
 }
